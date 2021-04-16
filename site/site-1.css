@@ -1,0 +1,42 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: aliceblue;   
+}
+
+/*текст*/
+h1,h2,h3,h4,h5 {
+    font-family: 'Play', sans-serif, bold;
+    color: black;
+}
+h1 {
+    font-size: 150%;
+}
+h2 {
+    font-size: 130%;
+}
+h3 {
+    font-size: 120%;
+}
+h4 {
+    font-size: 100%;
+}
+h5 {
+    font-size: 90%;
+}
+.recept {
+
+padding: inherit;
+    line-height: 1;
+}
+.ese-text {
+    background-color: aquamarine;
+    
+    border-left-style: groove;
+    border-bottom-style: groove;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top:10px;
+}
+/*bla*/

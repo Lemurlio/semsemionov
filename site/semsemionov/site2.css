@@ -1,0 +1,92 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  height: 800px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/*header*/
+header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+}
+.header-txt {
+    display: inline;
+    color: white;
+    margin: 12px;
+    font-size: 13px;
+}
+.header-logo{
+    margin-left: 8%;
+}
+.header-spis{
+    margin-right: 20px;
+    max-width: 700px;
+    min-width: 370px;
+}
+.header-nomer{
+    max-width: 400px;
+    min-width: 170px;
+}
+.header-soc{
+    margin-right: 8%;
+    min-width: 190px;
+}
+.icon{
+    display: inline;
+    margin: 10px;
+}
+/*srtuctura*/
+
+/*text pervoy stranicy*/
+h1{
+  font-family: 'Playfair Display SC', serif;
+    color: white;
+}
+.container-op {
+    display: block;
+    max-width: 40%;
+    min-width: 30%;
+    height: 350px;
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+/*Kartinki-ssilky-knopka*/
+.kartinki-ss-box{
+   
+    margin-left: 10%;
+    height: 500px;
+    width: 280px;
+    margin-top: ;
+}
+.kart{    
+    height: 128px;
+    width: 224px;
+    border: 1px solid gray;
+}
+.kart2{         
+    margin-top: 6%;
+    height: 128px;
+    width: 224px;
+    border: 1px solid gray;
+}
+.knopka-1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 244px;
+    height: 64px;
+    margin-top: 10%;
+    background: black;
+    color: white;
+    border-color: #CE03CE;
+    border-radius:  10px;
+    padding: 2%;
+}

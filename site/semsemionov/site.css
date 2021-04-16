@@ -1,0 +1,54 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+/*header*/
+header{
+    position: relative;
+    box-sizing:border-box;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    height: 80px;
+    background-color: rgba(196, 196, 196, 1)
+}
+.header-kartinka{
+    position: relative;
+    display: inline-block;
+    margin-left: 7%;
+    margin-top: 10px;
+}
+.header-obsh{
+    position: relative;
+        display: inline-block;
+    margin-left: 10%;
+    bottom: 30%;
+    width: 30%;
+}
+.header-txt{
+    display: inline-block;
+    margin-left: 5%;
+}
+.header-nomer{
+    position: relative;
+    display: inline-block;
+    margin-left: 0%;
+    bottom: 29%;
+}
+.header-soc{
+    position: relative;
+    display: inline-block;
+    margin-left: 5%;
+    bottom: 27%;
+}
+.header-icons{
+    display: inline-block;
+    margin-left: 4%;
+    
+    
+}
+.block-1{
+    height: 540px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background: linear-gradient(to top, black, white);
+}
