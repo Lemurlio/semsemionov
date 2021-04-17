@@ -1,11 +1,26 @@
+/*obshiye*/
 body{
   font-family: 'Montserrat', sans-serif;
-  background-color: black;
-  height: 800px;
+}
+.bg-1{
+    background-color: black;
+    height: 650px;
+    width: 110.6%;
+    margin: -10%;
+    display: block;
 }
 a {
     text-decoration: none;
     color: white;
+}
+h1{
+  font-family: 'Playfair Display SC', serif;
+    color: white;
+    font-size: 38px;
+}
+h2{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 32px;
 }
 /*header*/
 header{
@@ -32,6 +47,7 @@ header{
 .header-nomer{
     max-width: 400px;
     min-width: 170px;
+    
 }
 .header-soc{
     margin-right: 8%;
@@ -42,41 +58,85 @@ header{
     margin: 10px;
 }
 /*srtuctura*/
-
+.Obshiy-1{
+    display: inline-block;
+     justify-content: space-between;
+     position: absolute;
+     top: 160px;
+     margin-left: 7%;
+}
 /*text pervoy stranicy*/
-h1{
-  font-family: 'Playfair Display SC', serif;
-    color: white;
+.zagolovok-txt{
+    font-weight: 300;
+    font-size: 12px;
 }
 .container-op {
-    display: block;
-    max-width: 40%;
-    min-width: 30%;
-    height: 350px;
+   display: inline-block;
+    max-width: 45%;
+    min-width: 25%;
+    height: 450px;
     color: white;
     text-align: center;
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-left: 12.5%;
 }
-
 /*Kartinki-ssilky-knopka*/
 .kartinki-ss-box{
-   
-    margin-left: 10%;
-    height: 500px;
+    display: inline-block;
+    margin-left: 13%;
+    height: 300px;
     width: 280px;
-    margin-top: ;
+   
 }
 .kart{    
+    display: block;
     height: 128px;
     width: 224px;
+    border-radius: 8px;
     border: 1px solid gray;
+    padding: 2px;
+    position	: relative;
+}
+.opis-kart-text{
+    height: 10px;
+    width: 224px;
+    bottom: 15px;
+    position: absolute;
+    color: white;
+    font-weight: 510;
+}
+.opis-kart-back{
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    height: 30px;
+    width: 224px;
+    bottom: 15px;
+}
+.opis-kart-text-2{
+    height: 10px;
+    width: 224px;
+    position: absolute;
+    color: white;
+    font-weight: 510;
+    bottom: 15px;
+}
+.opis-kart-back-2{
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    height: 30px;
+    width: 224px;
+    bottom: 15px;
 }
 .kart2{         
-    margin-top: 6%;
+    display: block;
+    position: relative;
+    margin-top: 35px;
     height: 128px;
     width: 224px;
     border: 1px solid gray;
+    border-radius: 8px;
+    padding: 2px;
 }
 .knopka-1{
     font-family: 'Montserrat', sans-serif;
@@ -89,4 +149,32 @@ h1{
     border-color: #CE03CE;
     border-radius:  10px;
     padding: 2%;
+}
+.skrit {
+    color: black;
+}
+/*pro sho*/
+.pro-sho{
+    display: block;
+    margin-top: 280px;
+    margin-left: 10%;
+    position: relative;
+}
+.p-s-img{
+    display: inline-block;
+}
+.p-s-text-cont{
+    display: inline-block;
+    max-width: 50%;
+    min-width: 25%;
+    margin-left: 7%;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+}
+.p-s-text{  
+    font-weight: 500;
+}
+.bg-2{
+    height: 450px;
 }
