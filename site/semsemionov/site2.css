@@ -22,6 +22,9 @@ h2{
     font-family: 'Playfair Display SC', serif;
     font-size: 32px;
 }
+h3{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 18px;}
 /*header*/
 header{
     display: flex; 
@@ -170,8 +173,9 @@ header{
     margin-left: 7%;
     margin-right: 10%;
     position: absolute;
-    top: 12%;
+    top: 5%;
     text-align: center;
+    
 }
 .p-s-text{  
     font-weight: 500;
@@ -187,6 +191,66 @@ header{
     display: inline-block;
     text-align: center;
     position: absolute;
-    left: 50%;
+    left: 45%;
 }
-
+/*3*/
+.bg-3{
+    height: 450px;
+    position: relative;
+}
+.container-holder-3{
+   margin-top: 130px;
+   justify-content: space-between;
+}
+.strelka-levo{
+    position: relative;
+    display: inline-block;
+    width: 73px;    
+    margin-left: 10%;
+}
+.strelka-pravo{
+    position: relative;
+    display: inline-block;
+    width: 73px;
+    margin-left: 29px;
+}
+.container-video{ 
+    position: relative;
+    display: inline-block;
+    width: 390px;
+    height: 380px;
+    background-color: lightgray;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.container-video2{
+    position: relative;
+    display: inline-block;
+    width: 390px;
+    height: 380px;
+    background-color: lightgray;
+    margin-left: 52px;
+    
+}
+.kartinka-con{
+    display: block;
+    width: 27%;
+    height: 175px;
+    margin-left: 47px;
+    margin-top: 30px;  
+}
+.kartinka{
+}
+.vid-op{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 18px;
+    text-align: center;
+}
+.vid-op2{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+    
